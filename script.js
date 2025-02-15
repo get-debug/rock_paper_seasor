@@ -17,7 +17,7 @@ const genCompChoice = () => {
 }
 
 const drawGame = () => {
-    // console.log("game was draw !");
+    // console.log("game was draw!");
     msg.innerHTML = "game was draw !";
 }
 
