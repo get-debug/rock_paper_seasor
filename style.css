@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    justify-content: center; 
+    align-items: center;
+    background-color: gray;
+}
+
+#first{
+    /* padding-left: 500px; */
+    font-size: 60px;
+    background: -webkit-linear-gradient(#e21c34, #500b28); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, .7);
+    
+}
+
+.choices {
+    padding: 45px; 
+    gap: 10px;
+    display: inline-flex;
+    text-align: center;
+   
+}
+
+.choice{
+    padding: 10px; 
+    border: 2px black solid;
+  }
+
+  .choice:hover {
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, .7);
+    cursor: pointer;
+  }
+
+  #rock{
+    background: -webkit-linear-gradient(#0d4671, #500b28); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  #paper{
+    background: -webkit-linear-gradient(#4b086d, #450a3b); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  #scissors{
+    background: -webkit-linear-gradient(#1813a2, #500b28); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .score{
+    /* border: 2px black solid; */
+    padding: 10px; 
+    gap: 100px;
+    display: inline-flex;
+    /* text-align: center; */
+    display: inline-block;
+    /* display: inline-flex; */
+  }
+  .score-board{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 1.5rem;
+    gap: 30px;
+    
+    /* border: 2px black solid; */
+    
+  }
+
+  #user, #computer {
+    font-size: 2.5rem;
+  }
+
+  .msg-container{
+    margin-top: 20px;
+  }
+
+  .msg{
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    border: 1px green solid;
+    font-size: 2rem;
+  }
+
+  
